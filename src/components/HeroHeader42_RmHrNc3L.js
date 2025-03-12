@@ -32,12 +32,20 @@ const HeroHeader42_RmHrNc3L = () => {
           </Col>
           <Col xs={12} lg={5} className="position-relative text-center">
             <div className="imagesDiv">
-              <img
+              <img  style={{
+    marginRight: "10px",
+    boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
+    borderRadius: "15px"
+  }}
                 src={image1}
                 alt="Luxury Property"
                 className="img-fluid ezy__header42_RmHrNc3L-img"
               />
-              <img
+              <img style={{
+    
+    boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
+     borderRadius: "15px"
+  }}
                 src={image2}
                 alt="Modern Apartment"
                 className="img-fluid ezy__header42_RmHrNc3L-img"
