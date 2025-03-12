@@ -16,17 +16,27 @@ const HeroHeader42_RmHrNc3L = () => {
             <Row>
               <Col xs={12} lg={10}>
                 {/* New Offer Section */}
-                <div className="offer-card">
-                  <h3 className="offer-title">
-                    🚀 Limited-Time Offer for Early Buyers! 🎉
-                  </h3>
-                  <p className="offer-text">
-                    Be among the <strong>first 5 buyers</strong> of properties worth{" "}
-                    <strong>₹X, ₹Y, or ₹Z</strong> and receive a{" "}
-                    <strong>1% capital amount cashback every 3 years!</strong>
-                  </p>
-                  <button className="offer-btn">Claim Your Offer Now</button>
-                </div>
+              {/* Offer card for limited-time early buyers */}
+{/* <div className="offer-card">
+  <h3 className="offer-title">🚀 Limited-Time Offer for Early Buyers! 🎉</h3>
+  <p className="offer-text">
+    Be among the <strong>first 5 buyers</strong> of properties worth{" "}
+    <strong>₹X, ₹Y, or ₹Z</strong> and receive a{" "}
+    <strong>1% capital amount cashback every 3 years!</strong>
+  </p>
+  <button className="offer-btn">Claim Your Offer Now</button>
+</div> */}
+
+{/* Announcement for upcoming launch with a special offer */}
+<div className="offer-card">
+  <h3 className="offer-title">Stay Tuned for a Historic Launch! </h3>
+  <p className="offer-text">
+    We are launching an offer for the <strong>first time in India!</strong>{" "}
+    Stay tuned to avail something exciting and exclusive. 
+  </p>
+  <button className="offer-btn">Stay Updated</button>
+</div>
+
               </Col>
             </Row>
           </Col>
